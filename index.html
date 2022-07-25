@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+        <div class="wrapper">
+            <header>
+                <div class="container">            
+                        <img src="assets/oldagram-logo.png" id ="oldagram-logo"alt="">
+                        <img src="assets/your-avatar.png" id="your-avatar" alt="">  
+                </div>
+            </header>
+            <main>
+                <section class="user-info">
+                    <div class="flex-user-container">
+                        <div id="user-avatar"></div>
+                       
+                        
+                        
+                        <div>
+                            <p id="name"><b>Vicent van Gogh</b></p>
+                            <p id="location">Zudert, Netherlands</p>
+                        </div>                
+                        
+                        
+                    </div>
+                </section>
+                
+                <section class="post-image">
+                    <div class="container" id="image-container">
+                        
+                    </div>
+                </section>   
+                
+                <section class="icons">
+                    <div class="container">
+                        <button id="btn" onclick="render_like()"><img src="assets/like.png" id="like" alt=""></button>
+                        <img src="assets/share.png"id="share" alt="">
+                        <img src="assets/comment.png" id="comment" alt="">
+                    </div>
+                </section>
+    
+                <section class="likes-and-comments">
+                    <div class="container">
+                            <p id="like-num"><b>0 likes</b></p>
+                            <p id="comment-section"><b>vincey1853</b> just took a few mushrooms lol</p>
+                    </div>
+    
+                </section>  
+            </main>
+            
+        </div>
+        <script src="index.js"></script>
+
+       
+</body>
+</html>
