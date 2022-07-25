@@ -1,0 +1,125 @@
+body{
+    background-color: #FFFAE3;   
+}
+
+.wrapper{
+    width: 400px;
+    height: 680px;
+    background-color: #FCFCFC;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 50 auto;
+}
+
+header{
+    height: 70px;
+    border-bottom: 1px solid #5D576B;
+}
+
+#oldagram-logo{
+    width: 140px;
+    height: 35px;
+    margin: 16px 160px 16px 16px;
+}
+
+#your-avatar{
+    margin-top: 20px;
+    margin-bottom: 15px; 
+    margin-left: 25px;
+    height: 35px;
+    width: 35px;
+}
+
+.flex-user-container{
+    height: 70px;
+    border-bottom: 1px solid #5D576B;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#avatar{
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+
+}
+
+#name{
+    margin-bottom: 0px;
+}
+
+#location{
+    margin-top: 3px;
+}
+
+.post-image{
+    height: 400px;
+    border-bottom: 1px solid #5D576B;
+}
+
+#van-goh{
+    height: 100%;
+    width: 100%;
+}
+
+
+.icons{
+    width: 130px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#share{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.likes-and-comments{
+    margin-left: 23px; 
+    font-family: Source Sans Pro;
+    font-size: 16px;
+}
+
+
+#share:hover,
+#like:hover,
+#comment:hover{
+    
+    opacity: 0.6
+    
+}
+
+
+#like:active{
+    transform: scale(1.2);
+    color: pink;
+}
+
+#like-num{
+    font-weight: bold;
+}
+
+#avatar:hover,
+#your-avatar:hover{
+    transform: scale(1.2);
+}
+
+
+
+#btn{
+    background-color: white;
+    border: none;
+    padding: 0px;
+    margin-top: px;
+}
+
+
+
+
+
+
+
